@@ -46,7 +46,7 @@ mean.std.subject.activity <- cbind(as.data.table(mean.std), (subject.activity))
 # Create a tidy data set with average of each variable for each activity by each subject
 # Export results
 tidy <- na.omit(mean.std.subject.activity)
-write.table(tidy, row.name=FALSE, "tidy.csv")
+write.table(tidy, row.name=FALSE, "tidy.txt")
 
 # Export other files
 write.csv(all_data, "all_data.csv")
