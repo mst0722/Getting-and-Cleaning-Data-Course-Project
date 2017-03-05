@@ -1,92 +1,176 @@
+===============================================================
 Code Book for tidy.txt.
-
+===============================================================
 ID
 
 subject - The ID of the test subject
 activity - The type of activity performed by subject 
 
-Measures - Mean and STD
+===============================================================
+Measures:
 
+The average acceleration of the subject's body in the X, Y, Z directions
 tBodyAccMeanX
 tBodyAccMeanY
 tBodyAccMeanZ
+
+The stadard deviation of the acceleration of of the subject's body in the X, Y, and Z directions
 tBodyAccStdX
 tBodyAccStdY
 tBodyAccStdZ
+
+The average acceleration due to gravity in the X, Y, and Z directions
 tGravityAccMeanX
 tGravityAccMeanY
 tGravityAccMeanZ
+
+The average acceleration due to gravity in the X, Y, and Z directions
 tGravityAccStdX
 tGravityAccStdY
 tGravityAccStdZ
+
+The average rate of change of acceleration of the subject's body in the X, Y, and Z directions
 tBodyAccJerkMeanX
 tBodyAccJerkMeanY
 tBodyAccJerkMeanZ
+
+The standard deviation of rate of change of acceleration of the subject's body in the X, Y, and Z directions
 tBodyAccJerkStdX
 tBodyAccJerkStdY
 tBodyAccJerkStdZ
+
+The average angular velocity of the subject's body in the X, Y, and Z directions
 tBodyGyroMeanX
 tBodyGyroMeanY
 tBodyGyroMeanZ
+
+The standard deviation of the angular velocity of the subject's body in the X, Y, and Z directions
 tBodyGyroStdX
 tBodyGyroStdY
 tBodyGyroStdZ
+
+The average rate of change of angular velocity of the subject's body in the X, Y, and Z directions
 tBodyGyroJerkMeanX
 tBodyGyroJerkMeanY
 tBodyGyroJerkMeanZ
+
+The standard deviation of angular velocity of the subject's body in the X, Y, and Z directions
 tBodyGyroJerkStdX
 tBodyGyroJerkStdY
 tBodyGyroJerkStdZ
+
+The average magnitude of the acceleration of the subject's body
 tBodyAccMagMean
+
+The standard deviation of the magnitude of the acceleration of the subject's body
 tBodyAccMagStd
+
+The average magnitude of acceleration due to gravity
 tGravityAccMagMean
+
+The standard deviation of the magnitude of acceleration due to gravity
 tGravityAccMagStd
+
+The average magnitude of the rate of change of acceleration of the subject's body
 tBodyAccJerkMagMean
+
+The standard deviation of magnitude of the rate of change of acceleration of the subject's body
 tBodyAccJerkMagStd
+
+The average magnitude of the angular velocity of the subject's body
 tBodyGyroMagMean
+
+The standard deviation of the magnitude of the angular velocity of the subject's body
 tBodyGyroMagStd
+
+The average magnitude of the rate of change of angular velocity of the subject's body
 tBodyGyroJerkMagMean
+
+The standard deviation of the magnitude of the rate of change of angular velocity of the subject's body
 tBodyGyroJerkMagStd
+
+The average of the Fast Fourier Transform of the acceleration of the subject's body in the X, Y, Z directions
 fBodyAccMeanX
 fBodyAccMeanY
 fBodyAccMeanZ
+
+The standard deviation of the Fast Fourier Transform of the acceleration of the subject's body in the X, Y, Z directions
 fBodyAccStdX
 fBodyAccStdY
 fBodyAccStdZ
+
+The average frequency of the Fast Fourier Transform of the acceleration of the subject's body in the X, Y, Z directions
 fBodyAccMeanFreqX
 fBodyAccMeanFreqY
 fBodyAccMeanFreqZ
+
+The average of the Fast Fourier Transform of the rate of change of acceleration of the subject's body in the X, Y, Z directions
 fBodyAccJerkMeanX
 fBodyAccJerkMeanY
 fBodyAccJerkMeanZ
+
+The standard deviation of the Fast Fourier Transform of the rate of change of acceleration of the subject's body in the X, Y, Z directions
 fBodyAccJerkStdX
 fBodyAccJerkStdY
 fBodyAccJerkStdZ
+
+The average frequency of the Fast Fourier Transform of the rate of change of acceleration of the subject's body in the X, Y, Z directions
 fBodyAccJerkMeanFreqX
 fBodyAccJerkMeanFreqY
 fBodyAccJerkMeanFreqZ
+
+The average of the Fast Fourier Transform of the angular velocity of the subject's body in the X, Y, Z directions
 fBodyGyroMeanX
 fBodyGyroMeanY
 fBodyGyroMeanZ
+
+The standard deviation of the Fast Fourier Transform of the angular velocity of the subject's body in the X, Y, Z directions
 fBodyGyroStdX
 fBodyGyroStdY
 fBodyGyroStdZ
+
+The average frequency of the Fast Fourier Transform of the angular velocity of the subject's body in the X, Y, Z directions
 fBodyGyroMeanFreqX
 fBodyGyroMeanFreqY
 fBodyGyroMeanFreqZ
+
+The average of the magnitude of Fast Fourier Transform of the acceleration of the subject's body
 fBodyAccMagMean
+
+The standard deviation of the magnitude of Fast Fourier Transform of the acceleration of the subject's body
 fBodyAccMagStd
+
+The average frequency of the magnitude of the Fast Fourier Transform of the acceleration of the subject's body
 fBodyAccMagMeanFreq
+
+The average of the magnitude of the Fast Fourier Transform of the rate of change of acceleration of the subject's body
 fBodyBodyAccJerkMagMean
+
+The standard deviation of the magnitude of the Fast Fourier Transform of the rate of change of acceleration of the subject's body
 fBodyBodyAccJerkMagStd
+
+The average frequency of the magnitude of the Fast Fourier Transform of the rate of change of acceleration of the subject's body
 fBodyBodyAccJerkMagMeanFreq
+
+The average of the magnitude of the Fast Fourier Transform of the angular velocity of the subject's body
 fBodyBodyGyroMagMean
+
+The standard deviation of the magnitude of the Fast Fourier Transform of the angular velocity of the subject's body
 fBodyBodyGyroMagStd
+
+The average frequency of the magnitude of the Fast Fourier Transform of the angular velocity of the subject's body
 fBodyBodyGyroMagMeanFreq
+
+The average of the magnitude of the Fast Fourier Transform of the rate of change of angular velocity of the subject's body
 fBodyBodyGyroJerkMagMean
+
+The standard deviation of the magnitude of the Fast Fourier Transform of the rate of change of angular velocity of the subject's body
 fBodyBodyGyroJerkMagStd
+
+The average frequency of the magnitude of the Fast Fourier Transform of the rate of change of angular velocity of the subject's body
 fBodyBodyGyroJerkMagMeanFreq
 
+===============================================================
 Activity Labels
 The six activities perfomed by the subjects
 
@@ -96,3 +180,5 @@ WALKING_DOWNSTAIRS: walking down a staircase
 SITTING: sitting
 STANDING: standing
 LAYING: laying down
+
+===============================================================
